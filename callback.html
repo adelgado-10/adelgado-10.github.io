@@ -1,0 +1,4 @@
+<!doctype html><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tesla sign-in</title>
+<body style="font-family:sans-serif;padding:24px"><h2>Copy this code back to Tesla Model Y</h2>
+<p id="c" style="font-size:18px;word-break:break-all;background:#eee;padding:12px"></p>
+<script>var p=new URLSearchParams(location.search);document.getElementById('c').textContent=p.get('code')||('No code: '+(p.get('error_description')||p.get('error')||'missing'));</script></body>
